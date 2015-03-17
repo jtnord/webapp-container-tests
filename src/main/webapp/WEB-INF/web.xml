@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HangingServlet</servlet-name>
+  	<display-name>HangingServlet</display-name>
+  	<description>A servlet that does some stuff</description>
+  	<servlet-class>test.HangingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HangingServlet</servlet-name>
+  	<url-pattern>/hang</url-pattern>
+  </servlet-mapping>
+</web-app>
